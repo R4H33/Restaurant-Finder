@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, FlatList, Image, ScrollView } from 'react-native';
 import { Feather } from '@expo/vector-icons';
-import yelp from './Controller/api/yelp';
+import yelp from '../../Controller/api/yelp';
 
 const ResultsShowScreen = ({ navigation }) => {
     const [result, setResult] = useState(null);

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import yelp from '../api/yelp';
+import yelp from '../../Controller/api/yelp';
 
 export default () => {
     const [results, setResults] = useState([]);
