@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Restaurant Finder",
-    "slug": "Restaurant",
+    "name": "restaurant finder",
+    "slug": "food",
     "platforms": [
       "ios",
       "android",
@@ -23,11 +23,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.rahee.finder",
+      "bundleIdentifier": "com.reverie.food",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.rahee.finder",
+      "package": "com.reverie.food",
       "versionCode": 1
     }
   }
